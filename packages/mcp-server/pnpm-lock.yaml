@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@modelcontextprotocol/sdk':
     specifier: ^1.12.1
-    version: 1.32.0(zod@3.24.2)
+    version: 1.32.0(zod@4.6.6)
   zod:
-    specifier: ^3.24.2
-    version: 3.24.2
+    specifier: ^4.6.6
+    version: 4.6.6
 
 devDependencies:
   '@istanbuljs/nyc-config-typescript':
@@ -752,7 +752,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
 
-  /@modelcontextprotocol/sdk@1.32.0(zod@3.24.2):
+  /@modelcontextprotocol/sdk@1.32.0(zod@4.6.6):
     resolution: {integrity: sha512-8BviX/hK4Gd2eL1KdTwm0gfl4d3wdoErW0Jd00h6nomUAtk6IJk5vwQJc6kfWtJTzN5OEV/lgIiJKI8fiDGAlA==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -777,8 +777,8 @@ packages:
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.2
       raw-body: 3.0.2
-      zod: 3.24.2
-      zod-to-json-schema: 3.25.2(zod@3.24.2)
+      zod: 4.6.6
+      zod-to-json-schema: 3.25.2(zod@4.6.6)
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -5953,14 +5953,14 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod-to-json-schema@3.25.2(zod@3.24.2):
+  /zod-to-json-schema@3.25.2(zod@4.6.6):
     resolution: {integrity: sha512-O/PgfnpT1xKSDeQYSCfRI5Gy3hPf91mKVDuYLUHZJMiDFptvP41MSnWofm8dnCm0256ZNfZIM7DSzuSMAFnjHA==}
     peerDependencies:
       zod: ^3.25.28 || ^4
     dependencies:
-      zod: 3.24.2
+      zod: 4.6.6
     dev: false
 
-  /zod@3.24.2:
-    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+  /zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
     dev: false
