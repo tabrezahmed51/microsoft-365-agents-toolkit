@@ -33,8 +33,8 @@ devDependencies:
     specifier: ^4.0.0
     version: 4.0.0(eslint@7.29.0)(prettier@2.4.1)
   js-yaml:
-    specifier: ^4.3.2
-    version: 4.3.2
+    specifier: ^5.5.0
+    version: 5.5.0
   lint-staged:
     specifier: ^10.5.4
     version: 10.5.4
@@ -595,6 +595,10 @@ packages:
 
   /argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
+    dev: true
+
+  /argparse@3.0.4:
+    resolution: {integrity: sha512-fwWK3Zq22l4XJJjx5mcBHGikIk+hJqO+32dPm0Jur7+rtG5x1scOjSfdT9ZKeWHPpsya/l0HHK4tDImBkTrtvA==}
     dev: true
 
   /array-buffer-byte-length@1.0.1:
@@ -2070,6 +2074,13 @@ packages:
     hasBin: true
     dependencies:
       argparse: 2.0.1
+    dev: true
+
+  /js-yaml@5.5.0:
+    resolution: {integrity: sha512-paNr4LFIFPjeeSmwNYdrb8FafLLG/Cr2Af3GjbsHJ5CxIjH4r0c2emlmRdAtpPAieP1gRVzk6buBbVP5gBMGAg==}
+    hasBin: true
+    dependencies:
+      argparse: 3.0.4
     dev: true
 
   /json-buffer@3.0.1:
